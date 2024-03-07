@@ -1,0 +1,31 @@
+
+.headerMenu{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.label{
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 20%;
+}
+
+.buttonComponentMenu{
+  font-size: 25px;
+  color: white;
+  background-color: black;
+}
+
+.buttonComponentMenu:hover{
+  transition: 0.4s;
+  text-shadow: 0px 0px 10px white;
+}
+
+.listComponentMenu{
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgb(124, 117, 117);
+}
